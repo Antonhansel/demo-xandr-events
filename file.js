@@ -15,7 +15,7 @@ try {
   };
   window.relevancCheckout = function (checkout) {
     gtag("event", "checkout", {
-      checkout,
+	    cart: JSON.stringify(checkout),
       send_to: "G-4BP6Q9D13V",
     });
   };
