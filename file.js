@@ -4,7 +4,7 @@ document.write(
     "ipt>"
 );
 try {
-  console.log("cdn:v1.0");
+  console.log("cdn:v1.1");
   window.dataLayer = window.parent.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
